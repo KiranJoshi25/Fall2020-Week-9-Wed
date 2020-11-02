@@ -11,32 +11,32 @@
   },
   {
     "parentColumn": "A",
-    [{"childColumn": "C",
+    "childColumn": [{"Name":"C",
     "val": 200}]
   },
   {
     "parentColumn": "B",
-   [{ "childColumn": "D",
+   "childColumn":[{"Name": "D",
     "val": 30}]
   },
   {
     "parentColumn": "B",
-    [{"childColumn": "E",
+    "childColumn": [{"Name":"E",
     "val": 50}]
   },
   {
     "parentColumn": "C",
-    [{"childColumn": "F",
+    "childColumn": [{"Name":"F",
     "val": 20}]
   },
   {
     "parentColumn": "C",
-    [{"childColumn": "G",
+    "childColumn": [{"Name":"G",
     "val": 40}]
   },
   {
     "parentColumn": "C",
-    [{"childColumn": "H",
+    "childColumn": [{"Name":"H",
     "val": 60}]
   }
 ]
