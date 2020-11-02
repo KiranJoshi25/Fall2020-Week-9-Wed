@@ -2,17 +2,17 @@
   {
     "parentColumn": "P",
     "childColumn": "A",
-    "val": 500
+    "val": 300
   },
   {
     "parentColumn": "A",
     "childColumn": "B",
-    "val": 200
+    "val": 100
   },
   {
     "parentColumn": "A",
     "childColumn": "C",
-    "val": 300
+    "val": 200
   },
   {
     "parentColumn": "B",
