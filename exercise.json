@@ -1,7 +1,7 @@
 [
   {
     "parentColumn": "",
-    [{"childColumn": "A",
+    "childColumn":[{"Name": "A",
     "val": 300}]
   },
   {
