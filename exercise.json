@@ -6,7 +6,7 @@
   },
   {
     "parentColumn": "A",
-    [{"childColumn": "B",
+    "childColumn":[{"Name":"B",
     "val": 100}]
   },
   {
