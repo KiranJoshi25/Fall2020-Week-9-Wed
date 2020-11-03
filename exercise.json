@@ -1,42 +1,37 @@
-[
-  {
-    "parentColumn": "",
-    "childColumn":[{"Name": "A",
-    "val": 300}]
-  },
-  {
-    "parentColumn": "A",
-    "childColumn":[{"Name":"B",
-    "val": 100}]
-  },
-  {
-    "parentColumn": "A",
-    "childColumn": [{"Name":"C",
-    "val": 200}]
-  },
-  {
-    "parentColumn": "B",
-   "childColumn":[{"Name": "D",
-    "val": 30}]
-  },
-  {
-    "parentColumn": "B",
-    "childColumn": [{"Name":"E",
-    "val": 50}]
-  },
-  {
-    "parentColumn": "C",
-    "childColumn": [{"Name":"F",
-    "val": 20}]
-  },
-  {
-    "parentColumn": "C",
-    "childColumn": [{"Name":"G",
-    "val": 40}]
-  },
-  {
-    "parentColumn": "C",
-    "childColumn": [{"Name":"H",
-    "val": 60}]
-  }
-]
+ [{  "name":"A",
+            "value":200,
+            "children":[
+                {
+                    "name":"B",
+                    "value":80,
+                    "children":[
+                        {
+                            "name":"D",
+                            "value":30
+                        },
+                        {
+                            "name":"E",
+                            "value":50
+                        }
+                    ]
+                },
+                {
+                    "name":"C",
+                    "value":120,
+                    "children":[
+                        {
+                            "name":"F",
+                            "value":20
+                        },
+                        {
+                            "name":"G",
+                            "value":40
+                        },
+                        {
+                            "name":"H",
+                            "value":60
+                        }
+                    ]
+                }
+            ]
+        }]}]
