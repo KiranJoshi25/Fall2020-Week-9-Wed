@@ -11,25 +11,23 @@
 <body style="height: 100%; margin: 0">
 <div id="container" style="height: 100%"></div>
 <script type="text/javascript">
-
     d3.json( "https://raw.githubusercontent.com/KiranJoshi25/Fall2020-Week-9-Wed/master/exercise.json").then(function (Data) {
-
-        let dom = document.getElementById("container"); // select container
-        let treeMap = echarts.init(dom); // initiate echarts object
-        treeMap.setOption({             // define type of visualization
+        let dom = document.getElementById("container");
+        let treeMap = echarts.init(dom);
+        treeMap.setOption({
             series: [
                 {
-                    type: 'treemap', // visualization type
-                    data: Data,     // data
-                    label: {        // show or hide labels
-                        show: true,
-                        formatter: '{b}'
+                    type: 'treemap',
+                    data: Data,
+                    label:
+                        {
+                            show: true,
+                            formatter: '{b}'
                     },
                 }
             ]
         },true);
     });
-
 </script>
 </body>
 </html>
